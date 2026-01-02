@@ -1,0 +1,211 @@
+# ============================================
+# CONFIGURATION PORTFOLIO CYBERSÉCURITÉ
+# Samuel MEYISSO - GitHub Pages
+# ============================================
+
+# --- INFORMATIONS DU SITE ---
+title: "Samuel MEYISSO | Cybersecurity Portfolio"
+description: "Portfolio professionnel d'un analyste cybersécurité junior spécialisé en pentest, audit réseau et sécurité offensive/défensive"
+author: "Samuel MEYISSO"
+email: samuelmeyisso635@gmail.com
+url: "https://VOTRE_USERNAME.github.io"
+baseurl: "" # Laisse vide si c'est votre site principal
+
+# --- THÈME GITHUB PAGES ---
+# Choisis un thème parmi : minimal, hacker, midnight, slate, cayman, etc.
+theme: jekyll-theme-hacker
+# Alternative pour un thème cybersec sombre :
+# remote_theme: pages-themes/hacker@v0.2.0
+
+# --- MÉTADONNÉES SEO ---
+lang: fr-FR
+timezone: Europe/Paris
+keywords: 
+  - cybersécurité
+  - ethical hacking
+  - pentest
+  - SOC analyst
+  - network security
+  - cybersecurity portfolio
+  - samuel meyisso
+
+# --- RÉSEAUX SOCIAUX ---
+social:
+  name: Samuel MEYISSO
+  links:
+    - https://linkedin.com/in/VOTRE_LINKEDIN
+    - https://github.com/VOTRE_USERNAME
+    - mailto:samuelmeyisso635@gmail.com
+
+# --- INFORMATIONS PROFESSIONNELLES ---
+job_title: "Stagiaire Analyste Cybersécurité / SOC Junior"
+location: "Coulommiers, Île-de-France, France"
+phone: "+33 6 99 58 20 51"
+availability: "Disponible immédiatement"
+
+# --- LIENS PERSONNALISÉS ---
+linkedin_url: "https://linkedin.com/in/VOTRE_LINKEDIN"
+github_url: "https://github.com/VOTRE_USERNAME"
+portfolio_url: "https://VOTRE_SITE_WEB" # Si vous avez un site perso
+
+# --- NAVIGATION ---
+header_pages:
+  - index.md
+  - projets.md
+  - competences.md
+  - formation.md
+  - contact.md
+
+# --- PROJETS PRINCIPAUX ---
+featured_projects:
+  - name: "VM Vulnérable & Exploitation"
+    description: "Création d'un environnement de pentest avec exploitation de vulnérabilités"
+    url: "https://github.com/VOTRE_USERNAME/vm-vulnerable"
+    tags: ["Pentest", "Kali Linux", "Exploitation"]
+    
+  - name: "Réseau Entreprise Segmenté"
+    description: "Architecture réseau sécurisée avec DMZ, VLANs et firewall"
+    url: "https://github.com/VOTRE_USERNAME/network-security"
+    tags: ["Network Security", "Firewall", "Segmentation"]
+    
+  - name: "Base de Données Sécurisée"
+    description: "Conception BDD avec chiffrement, RBAC et audit"
+    url: "https://github.com/VOTRE_USERNAME/secure-database"
+    tags: ["Database Security", "IAM", "Encryption"]
+
+# --- COMPÉTENCES TECHNIQUES ---
+skills:
+  offensive:
+    - "Nmap, Metasploit, Burp Suite"
+    - "SQL Injection, XSS, OWASP Top 10"
+    - "Hashcat, John the Ripper"
+    - "ARP Spoofing, Network Attacks"
+    
+  defensive:
+    - "Wireshark, Snort, Suricata"
+    - "Stormshield, Firewall Management"
+    - "Hardening Linux/Windows"
+    - "Incident Response, Monitoring"
+    
+  tools:
+    - "Kali Linux, Windows Server"
+    - "Docker, VirtualBox"
+    - "Packet Tracer, Cisco"
+    - "Shodan, OSINT Tools"
+    
+  languages:
+    - "C, Python, Bash"
+    - "PowerShell, JavaScript"
+    - "SQL, NoSQL"
+
+# --- LANGUES ---
+languages:
+  - name: "Français"
+    level: "Natif"
+  - name: "Anglais"
+    level: "C2 (Bilingue)"
+  - name: "Espagnol"
+    level: "C2 (Bilingue)"
+  - name: "Italien"
+    level: "A1 (Débutant)"
+  - name: "Allemand"
+    level: "A1 (Débutant)"
+
+# --- FORMATION ---
+education:
+  - degree: "Bachelor Cybersécurité & Hacking Éthique"
+    school: "École 89 Deep Tech"
+    year: "2025-2026"
+    
+  - degree: "Licence LEA - Langues Étrangères Appliquées"
+    school: "Université de Limoges"
+    year: "2024-2025"
+    
+  - degree: "Baccalauréat Général"
+    school: "Lycée International Cours Lumière"
+    year: "2023-2024"
+
+# --- CERTIFICATIONS (objectifs) ---
+certifications:
+  - name: "CompTIA Security+"
+    status: "En préparation"
+  - name: "CEH - Certified Ethical Hacker"
+    status: "Objectif 2026"
+
+# --- PARAMÈTRES MARKDOWN ---
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    
+# --- PLUGINS GITHUB PAGES ---
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-github-metadata
+  - jekyll-relative-links
+
+# --- CONFIGURATION BLOG (optionnel) ---
+show_excerpts: true
+paginate: 10
+paginate_path: "/blog/page:num/"
+
+# --- EXCLUSIONS ---
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+  - README.md
+  - LICENSE.md
+  - CNAME
+
+# --- INCLUSIONS ---
+include:
+  - _pages
+  - assets
+
+# --- COLLECTIONS (pour projets détaillés) ---
+collections:
+  projects:
+    output: true
+    permalink: /projets/:name/
+  writeups:
+    output: true
+    permalink: /writeups/:name/
+
+# --- PARAMÈTRES PAR DÉFAUT ---
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+      author: "Samuel MEYISSO"
+  - scope:
+      path: ""
+      type: "writeups"
+    values:
+      layout: "writeup"
+      author: "Samuel MEYISSO"
+
+# --- ANALYTICS (optionnel) ---
+# google_analytics: UA-XXXXXXXXX-X # Ton ID Google Analytics
+# google_site_verification: "VOTRE_CODE_VERIFICATION"
+
+# --- COULEURS PERSONNALISÉES (pour thème hacker) ---
+colors:
+  primary: "#00ff00"      # Vert hacker
+  secondary: "#0d1117"    # Noir profond
+  accent: "#ff0000"       # Rouge alerte
+  text: "#ffffff"         # Blanc
+  background: "#000000"   # Noir pur
+
+# --- MESSAGES PERSONNALISÉS ---
+footer_text: "© 2025 Samuel MEYISSO | Cybersecurity Portfolio - Tous droits réservés"
+tagline: "Passionné par la sécurité offensive et défensive"
