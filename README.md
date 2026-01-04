@@ -6,6 +6,7 @@
 │  [████████████████████] 100% - Authentification réussie     │
 └─────────────────────────────────────────────────────────────┘
 ```
+logo: (img/Profilphotogrey.jpg)
 
 <div align="center">
 
