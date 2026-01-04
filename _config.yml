@@ -8,7 +8,7 @@ title: "Samuel MEYISSO | Cybersecurity Portfolio"
 description: "Portfolio professionnel d'un analyste cybersécurité junior spécialisé en pentest, audit réseau et sécurité offensive/défensive"
 author: "Samuel MEYISSO"
 email: samuelmeyisso635@gmail.com
-url: "https://VOTRE_USERNAME.github.io"
+url: "https://samuelmeyisso9-lab.github.io"
 baseurl: "" # Laisse vide si c'est votre site principal
 
 # --- THÈME GITHUB PAGES ---
@@ -33,8 +33,8 @@ keywords:
 social:
   name: Samuel MEYISSO
   links:
-    - https://linkedin.com/in/VOTRE_LINKEDIN
-    - https://github.com/VOTRE_USERNAME
+    - https://linkedin.com/in/samuel-emmanuel-meyisso
+    - https://github.com/samuelmeyisso9-lab
     - mailto:samuelmeyisso635@gmail.com
 
 # --- INFORMATIONS PROFESSIONNELLES ---
@@ -44,8 +44,8 @@ phone: "+33 6 99 58 20 51"
 availability: "Disponible immédiatement"
 
 # --- LIENS PERSONNALISÉS ---
-linkedin_url: "https://linkedin.com/in/VOTRE_LINKEDIN"
-github_url: "https://github.com/VOTRE_USERNAME"
+linkedin_url: "https://linkedin.com/in/samuel-emmanuel-meyisso"
+github_url: "https://github.com/samuelmeyisso9-lab"
 portfolio_url: "https://VOTRE_SITE_WEB" # Si vous avez un site perso
 
 # --- NAVIGATION ---
@@ -60,17 +60,17 @@ header_pages:
 featured_projects:
   - name: "VM Vulnérable & Exploitation"
     description: "Création d'un environnement de pentest avec exploitation de vulnérabilités"
-    url: "https://github.com/VOTRE_USERNAME/vm-vulnerable"
+    url: "https://github.com/samuelmeyisso9-lab/vm-vulnerable"
     tags: ["Pentest", "Kali Linux", "Exploitation"]
     
   - name: "Réseau Entreprise Segmenté"
     description: "Architecture réseau sécurisée avec DMZ, VLANs et firewall"
-    url: "https://github.com/VOTRE_USERNAME/network-security"
+    url: "https://github.com/samuelmeyisso9-lab/network-security"
     tags: ["Network Security", "Firewall", "Segmentation"]
     
   - name: "Base de Données Sécurisée"
     description: "Conception BDD avec chiffrement, RBAC et audit"
-    url: "https://github.com/VOTRE_USERNAME/secure-database"
+    url: "https://github.com/samuelmeyisso9-lab/secure-database"
     tags: ["Database Security", "IAM", "Encryption"]
 
 # --- COMPÉTENCES TECHNIQUES ---
