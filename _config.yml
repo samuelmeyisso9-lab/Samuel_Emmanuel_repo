@@ -33,7 +33,7 @@ keywords:
 social:
   name: Samuel MEYISSO
   links:
-    - https://linkedin.com/in/samuel-emmanuel-meyisso
+    - https:https://www.linkedin.com/in/samuel-emmanuel-meyisso-91980b330/
     - https://github.com/samuelmeyisso9-lab
     - mailto:samuelmeyisso635@gmail.com
 
@@ -44,7 +44,7 @@ phone: "+33 6 99 58 20 51"
 availability: "Disponible immédiatement"
 
 # --- LIENS PERSONNALISÉS ---
-linkedin_url: "https://linkedin.com/in/samuel-emmanuel-meyisso"
+linkedin_url: "https://www.linkedin.com/in/samuel-emmanuel-meyisso-91980b330/"
 github_url: "https://github.com/samuelmeyisso9-lab"
 portfolio_url: "https://VOTRE_SITE_WEB" # Si vous avez un site perso
 
