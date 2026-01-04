@@ -12,7 +12,7 @@
 ### 🎯 Stagiaire Analyste Cybersécurité | SOC Junior
 **`Étudiant en Bachelor Cybersécurité & Hacking Éthique`**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](VOTRE_LIEN_LINKEDIN)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samuel-emmanuel-meyisso-91980b330/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:samuelmeyisso635@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](VOTRE_SITE_WEB)
 
@@ -190,7 +190,7 @@ $ fail2ban-client status sshd
 **📧 Email :** [samuelmeyisso635@gmail.com](mailto:samuelmeyisso635@gmail.com)  
 **📍 Localisation :** Coulommiers, Île-de-France (77120)  
 **📱 Téléphone :** 06 99 58 20 51  
-**💼 LinkedIn :** [Samuel MEYISSO](VOTRE_LIEN_LINKEDIN)
+**💼 LinkedIn :** [Samuel MEYISSO](https://www.linkedin.com/in/samuel-emmanuel-meyisso-91980b330/)
 
 ---
 
